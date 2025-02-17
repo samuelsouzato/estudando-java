@@ -1,4 +1,4 @@
-package Sintaxe.Condicionais;
+package Sintaxe.bCondicionais;
 
 public class estruturas {
     public static void main(String[] args) {

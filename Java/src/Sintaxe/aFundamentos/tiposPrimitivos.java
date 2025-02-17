@@ -1,4 +1,4 @@
-package Sintaxe;
+package Sintaxe.aFundamentos;
 
 public class tiposPrimitivos {
 
