@@ -1,4 +1,4 @@
-package Sintaxe.Condicionais.Exercício;
+package Sintaxe.bCondicionais.Exercício;
 
 //Crie um programa que leia dois números inteiros e diga qual deles é o maior. Se ambos forem iguais, deve exibir "Os números são iguais".
 public class comparacaoDeNumeros {

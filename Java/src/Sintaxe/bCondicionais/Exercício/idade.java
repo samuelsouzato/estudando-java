@@ -1,4 +1,4 @@
-package Sintaxe.Condicionais.Exercício;
+package Sintaxe.bCondicionais.Exercício;
 
 //Criar um programa que receba a idade de uma pessoa e diga se ela é maior de idade (18 anos ou mais) ou menor de idade.
 public class idade {
