@@ -2,7 +2,7 @@ package Sintaxe.aExerciciosBasicos;
 
 import java.util.Scanner;
 
-public class calculo {
+public class Calculo {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

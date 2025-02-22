@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 //Solicite três números e determine qual é o maior deles.
 
-public class numeroMaior {
+public class NumeroMaior {
     public static void main(String[] args){
 
         Scanner scanner = new Scanner(System.in);

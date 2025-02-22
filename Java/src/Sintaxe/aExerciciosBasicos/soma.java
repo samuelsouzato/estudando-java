@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 //Crie um programa que peça dois números inteiros ao usuário e exiba a soma deles.
 
-public class soma {
+public class Soma {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

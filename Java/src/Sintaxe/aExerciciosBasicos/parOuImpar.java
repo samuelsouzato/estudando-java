@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 //Peça um número ao usuário e informe se ele é par ou ímpar.
 
-public class parOuImpar{
+public class ParOuImpar{
      public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         

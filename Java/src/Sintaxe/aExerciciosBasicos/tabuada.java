@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 //Peça um número e exiba a tabuada dele de 1 a 10
 
-public class tabuada {
+public class Tabuada {
     public static void main (String[] args){
         Scanner scanner = new Scanner(System.in);
 
 
-        System.out.print("Digite o número que deseja a tabuado: ");
+        System.out.print("Digite o número que deseja a tabuada: ");
         int n1 = scanner.nextInt();
 
         for (int i = 1; i <= 10; i++ ){
