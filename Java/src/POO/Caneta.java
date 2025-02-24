@@ -1,63 +1,35 @@
 package POO;
 
 public class Caneta {
+    String modelo;
     String cor;
     double ponta;
+    int carga;
     boolean tampada;
 
-    // Construtor
-    public Caneta(String cor, double ponta) {
-        this.cor = cor;
-        this.ponta = ponta;
-        this.tampada = true; // A caneta começa tampada
+    public void status(){
+
+        System.out.println("Modelo:" + this.modelo);
+        System.out.println("Cor: " + this.cor);
+        System.out.println("Ponta: " + this.ponta);
+        System.out.println("Carga: " + this.carga);
+        System.out.println(" está tampada?: " + this.tampada);
     }
 
-    // Método para escrever
-    public void escrever(String texto) {
-        if (tampada) {
-            System.out.println("Erro! A caneta está tampada.");
+    public void rabiscar(){
+        if (this.tampada == true){
+            System.out.println("ERRO! Não posso rabiscar");
         } else {
-            System.out.println("Escrevendo: " + texto);
+            System.out.println("Estou rabiscando");
         }
     }
 
-    // Método para tampar a caneta
-    public void tampar() {
-        tampada = true;
-        System.out.println("A caneta foi tampada.");
+    protected void tampar(){
+        this.tampada = true;
     }
-
-    // Método para destampar a caneta
-    public void destampar() {
-        tampada = false;
-        System.out.println("A caneta foi destampada.");
-    }
-
-    // Método para mostrar o estado atual da caneta
-    public void mostrarEstado() {
-        System.out.println("Cor: " + cor);
-        System.out.println("Ponta: " + ponta);
-        System.out.println("Está tampada? " + (tampada ? "Sim" : "Não"));
+  
+    void destampar(){
+        this.tampada = false;
     }
 }
 
-    class Main {
-    public static void main(String[] args) {
-        // Criando um objeto Caneta
-        Caneta minhaCaneta = new Caneta("Azul", 0.7);
-
-        // Mostrando o estado inicial da caneta
-        minhaCaneta.mostrarEstado();
-
-        // Tentando escrever com a caneta tampada
-        minhaCaneta.escrever("Olá, mundo!");
-
-        // Destampando a caneta e tentando escrever novamente
-        minhaCaneta.destampar();
-        minhaCaneta.escrever("Agora sim, estou escrevendo!");
-
-        // Tampando a caneta novamente e mostrando o estado final
-        minhaCaneta.tampar();
-        minhaCaneta.mostrarEstado();
-    }
-}
