@@ -1,6 +1,5 @@
 package POO.Aula06;
 
-//Encapsulamento
 //Interface
 public interface Controlador {
     
